@@ -3,25 +3,29 @@
 @Deanin React on Rails 7\
 https://www.youtube.com/watch?v=nKybfmmO7JU&list=PL3mtAHT_eRewtt6HPMHFB4TMxkxiEfp9N
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Environment variable for React to know which client to communicate with
+- Add Rails url to .env.development\
+VITE_API_URL=localhost:3000/api/v1/posts
 
-* Ruby version
+In React:\
+API URL comes from the .env.development
 
-* System dependencies
+## Versions:
 
-* Configuration
+* Ruby version\
+3.2.2
 
-* Database creation
+* Rails version\
+7.0.7+
 
-* Database initialization
+* Database\
+SQLite3
 
-* How to run the test suite
+* Build Tool\
+Vite 4
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Frontend\
+React 18.2
 
 * ...
