@@ -6,7 +6,9 @@ https://www.youtube.com/watch?v=nKybfmmO7JU&list=PL3mtAHT_eRewtt6HPMHFB4TMxkxiEf
 
 Environment variable for React to know which client to communicate with
 - Add Rails url to .env.development\
-VITE_API_URL=localhost:3000/api/v1/posts
+VITE_API_URL=http://localhost:3000/api/v1/posts
+
+Note: It doesn't work without the http:// !
 
 In React:\
 API URL comes from the .env.development
