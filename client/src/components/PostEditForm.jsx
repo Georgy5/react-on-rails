@@ -81,7 +81,7 @@ function PostEditForm() {
           ></textarea>
         </div>
         <div>
-          <button type="submit">Create Post</button>
+          <button type="submit">Save</button>
         </div>
       </form>
     </div>
