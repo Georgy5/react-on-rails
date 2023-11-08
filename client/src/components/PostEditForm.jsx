@@ -1,4 +1,4 @@
-function EditPostForm() {
+function PostEditForm() {
   return (
     <div>
       <h2>Edit Post Form here</h2>
@@ -6,4 +6,4 @@ function EditPostForm() {
   )
 }
 
-export default EditPostForm;
+export default PostEditForm;
