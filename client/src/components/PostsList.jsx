@@ -37,7 +37,6 @@ function PostsList() {
               {post.title}
             </Link>
           </h2>
-          <p>{post.body}</p>
         </div>
       ))}
     </div>
