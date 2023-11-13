@@ -1,8 +1,6 @@
-// API_URL comes from the .env.development file
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { deletePost, fetchAllPosts } from '../services/postService';
-import { deletePost } from '../services/postService';
 
 function PostsList() {
   const [posts, setPosts] = useState([]);
